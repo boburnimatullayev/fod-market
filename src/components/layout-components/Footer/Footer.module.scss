@@ -11,6 +11,10 @@
     display: flex;
     border-bottom: 1px solid #ccc;
     padding-bottom: 40px;
+    .logo{
+        font: var(--typography4-900);
+        color: var(--primary-900);
+    }
 
     @media (max-width: 420px) {
         flex-direction: column;

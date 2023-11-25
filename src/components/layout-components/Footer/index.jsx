@@ -1,9 +1,5 @@
 import Container from "../../share-components/Container";
 import cls from "./Footer.module.scss";
-
-// import instagram from '../../../public/images/instagram.png'
-// import telegram from '../../../public/images/telegram.png'
-// import facebook from '../../../public/images/facebook.png'
 import {
   FaceBookIcon,
   InstagramIcon,
@@ -15,7 +11,7 @@ const Footer = () => {
     <footer className={cls.footer}>
       <Container>
         <div className={cls.footerTop}>
-          <h3>Logo</h3>
+          <h3 className={cls.logo}>Logo</h3>
           <nav className={cls.nav}>
             <ul className={cls.navigation}>
               <li>
