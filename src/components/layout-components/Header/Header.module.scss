@@ -1,0 +1,139 @@
+@import "../../../styles/mixin";
+
+.header {
+  @include flexAll(space-between);
+  height: 100px;
+  .headerLeftBox {
+    @include flexAll(flex-start);
+    .desctopLogo {
+      font: var(--typography4-900);
+      color: var(--primary-900);
+    }
+  }
+  .headerRightBox {
+    @include flexAll(flex-end);
+    .locationWrap {
+      @include flexAll(flex-start);
+      button {
+        width: 47px;
+        height: 47px;
+        background-color: var(--primary-50);
+        @include flexAll(center);
+        border: none;
+        border-radius: 50%;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+      .locationTitle {
+        font-size: 14px;
+        span {
+          font-size: 13px;
+          color: var(--primary-900);
+        }
+      }
+      @media (max-width: 800px) {
+        display: none;
+      }
+    }
+
+    .actionWrap {
+      @include flexAll(flex-end);
+      margin-left: 40px;
+      .basketBnt {
+        width: 47px;
+        height: 47px;
+        background-color: var(--primary-50);
+        @include flexAll(center);
+        border: none;
+        border-radius: 50%;
+        margin-right: 10px;
+        cursor: pointer;
+        @media (max-width: 1290px) {
+          display: none;
+        }
+      }
+
+      .lang {
+        position: relative;
+        background-color: var(--primary-50);
+        padding: 9px;
+        margin-right: 16px;
+        border-radius: 4px;
+        @include flexAll(center);
+        cursor: pointer;
+        border-radius: 30px;
+
+        .wrapper {
+          position: absolute;
+          cursor: default;
+          top: 45px;
+          right: 20px;
+          padding: 30px;
+          display: none;
+          width: 200px;
+          transition: max-height 0.5s ease-out;
+          max-height: 0;
+
+          .langList {
+            cursor: default;
+            width: 100%;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+            background: #fff;
+            position: relative;
+            z-index: 9999;
+            border-radius: 4px;
+            padding: 15px;
+
+            &::before {
+              content: "";
+              position: absolute;
+              width: 0;
+              height: 0;
+              border-left: 15px solid transparent;
+              border-right: 15px solid transparent;
+              background-color: #fff;
+              top: -13px;
+              right: 15px;
+            }
+            .listItem {
+              padding: 15px 20px;
+              margin: 0 !important;
+              border-radius: 7px;
+              font-size: 18px;
+              font-weight: 400;
+              &:hover {
+                background-color: #f6f8f9;
+              }
+            }
+          }
+        }
+
+        .expandIcon svg {
+          transition: transform 0.3s ease-out;
+          margin-left: 10px;
+        }
+
+        &:hover {
+          .expandIcon svg {
+            transform: rotate(-180deg);
+          }
+
+          .wrapper {
+            display: block;
+            max-height: 100vh;
+          }
+        }
+      }
+      .loin {
+        background-color: var(--primary-50);
+        color: var(--primary-900);
+        padding: 12px 20px;
+        border: none;
+        border-radius: 30px;
+        font-weight: 500;
+        cursor: pointer;
+        font-size: 16px;
+      }
+    }
+  }
+}

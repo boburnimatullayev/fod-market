@@ -1,0 +1,33 @@
+@import "../../../styles/mixin";
+
+.navbarWrap {
+  .navbarBox {
+    @include flexAll(space-between);
+    .navbarList {
+      list-style: none;
+      @include flexAll(space-between);
+    }
+
+    .listLink {
+      position: relative;
+      white-space: nowrap;
+      margin-left: 15px;
+      a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        letter-spacing: -0.41px;
+        display: block;
+        padding: 10px 8px;
+        transition: 0.2s -ms-transform cubic-bezier(0, 0, 0.1, 1),
+          0.2s -webkit-transform cubic-bezier(0, 0, 0.1, 1),
+          0.2s transform cubic-bezier(0, 0, 0.1, 1);
+      }
+    }
+  }
+  @media (max-width:1290px){
+    display: none;
+     
+  }
+}
+

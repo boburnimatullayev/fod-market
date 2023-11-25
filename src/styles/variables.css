@@ -1,0 +1,526 @@
+:root {
+    --border-radius: 30px;
+    /* -------------------- gradient -------------------- */
+  
+    /* -------------------- colors -------------------- */
+    --white: #fff;
+    --primary-50: #E7F3FC;
+    --primary-900: #5982e7;
+  
+    --secondary-50: #f0eefb;
+    --secondary-100: #d1cbf4;
+    --secondary-200: #bbb2ee;
+    --secondary-300: #9d8ee7;
+    --secondary-400: #8979e2;
+    --secondary-500: #6c57db;
+    --secondary-600: #624fc7;
+    --secondary-700: #4d3e9b;
+    --secondary-800: #3b3078;
+    --secondary-900: #2d255c;
+  
+    --dark-50: #e7e8e9;
+    --dark-100: #b4b8ba;
+    --dark-200: #8f9598;
+    --dark-300: #5c6569;
+    --dark-400: #3d474c;
+    --dark-500: #0c191f;
+    --dark-600: #0b171c;
+    --dark-700: #091216;
+    --dark-800: #070e11;
+    --dark-900: #050b0d;
+  
+    /* -------------------- shadow -------------------- */
+    --shadow-1: 0px 8px 32px 0px rgba(38, 38, 38, 0.2);
+  }
+  
+  /* -------------------- typhography xs -------------------- */
+  @media (min-width: 320px) {
+    :root {
+      /* typography1 */
+      --typography1-300: normal 300 36px "Inter";
+      --typography1-400: normal 400 36px "Inter";
+      --typography1-500: normal 500 36px "Inter";
+      --typography1-700: normal 700 36px "Inter";
+      --typography1-900: normal 900 36px "Inter";
+  
+      /* typography2 */
+      --typography2-300: normal 300 28px "Inter";
+      --typography2-400: normal 400 28px "Inter";
+      --typography2-500: normal 500 28px "Inter";
+      --typography2-700: normal 700 28px "Inter";
+      --typography2-900: normal 900 28px "Inter";
+  
+      /* typography3 */
+      --typography3-300: normal 300 24px "Inter";
+      --typography3-400: normal 400 24px "Inter";
+      --typography3-500: normal 500 24px "Inter";
+      --typography3-700: normal 700 24px "Inter";
+      --typography3-900: normal 900 24px "Inter";
+  
+      /* typography4 */
+      --typography4-300: normal 300 18px "Inter";
+      --typography4-400: normal 400 18px "Inter";
+      --typography4-500: normal 500 18px "Inter";
+      --typography4-700: normal 700 18px "Inter";
+      --typography4-900: normal 900 18px "Inter";
+  
+      /* typography5 */
+      --typography5-300: normal 300 16px "Inter";
+      --typography5-400: normal 400 16px "Inter";
+      --typography5-500: normal 500 16px "Inter";
+      --typography5-700: normal 700 16px "Inter";
+      --typography5-900: normal 900 16px "Inter";
+  
+      /* typography6 */
+      --typography6-300: normal 300 14px "Inter";
+      --typography6-400: normal 400 14px "Inter";
+      --typography6-500: normal 500 14px "Inter";
+      --typography6-700: normal 700 14px "Inter";
+      --typography6-900: normal 900 14px "Inter";
+  
+      /* typography7 */
+      --typography7-300: normal 300 12px "Inter";
+      --typography7-400: normal 400 12px "Inter";
+      --typography7-500: normal 500 12px "Inter";
+      --typography7-700: normal 700 12px "Inter";
+      --typography7-900: normal 900 12px "Inter";
+  
+      /* typography8 */
+      --typography8-300: normal 300 10px "Inter";
+      --typography8-400: normal 400 10px "Inter";
+      --typography8-500: normal 500 10px "Inter";
+      --typography8-700: normal 700 10px "Inter";
+      --typography8-900: normal 900 10px "Inter";
+  
+      /* typography9 */
+      --typography9-300: normal 300 8px "Inter";
+      --typography9-400: normal 400 8px "Inter";
+      --typography9-500: normal 500 8px "Inter";
+      --typography9-700: normal 700 8px "Inter";
+      --typography9-900: normal 900 8px "Inter";
+  
+      /* typography10 */
+      --typography10-300: normal 300 6px "Inter";
+      --typography10-400: normal 400 6px "Inter";
+      --typography10-500: normal 500 6px "Inter";
+      --typography10-700: normal 700 6px "Inter";
+      --typography10-900: normal 900 6px "Inter";
+  
+      /* typography11 */
+      --typography11-300: normal 300 4px "Inter";
+      --typography11-400: normal 400 4px "Inter";
+      --typography11-500: normal 500 4px "Inter";
+      --typography11-700: normal 700 4px "Inter";
+      --typography11-900: normal 900 4px "Inter";
+    }
+  }
+  
+  /* -------------------- typhography sm -------------------- */
+  @media (min-width: 576px) {
+    :root {
+      /* typography1 */
+      --typography1-300: normal 300 38px "Inter";
+      --typography1-400: normal 400 38px "Inter";
+      --typography1-500: normal 500 38px "Inter";
+      --typography1-700: normal 700 38px "Inter";
+      --typography1-900: normal 900 38px "Inter";
+  
+      /* typography2 */
+      --typography2-300: normal 300 32px "Inter";
+      --typography2-400: normal 400 32px "Inter";
+      --typography2-500: normal 500 32px "Inter";
+      --typography2-700: normal 700 32px "Inter";
+      --typography2-900: normal 900 32px "Inter";
+  
+      /* typography3 */
+      --typography3-300: normal 300 28px "Inter";
+      --typography3-400: normal 400 28px "Inter";
+      --typography3-500: normal 500 28px "Inter";
+      --typography3-700: normal 700 28px "Inter";
+      --typography3-900: normal 900 28px "Inter";
+  
+      /* typography4 */
+      --typography4-300: normal 300 20px "Inter";
+      --typography4-400: normal 400 20px "Inter";
+      --typography4-500: normal 500 20px "Inter";
+      --typography4-700: normal 700 20px "Inter";
+      --typography4-900: normal 900 20px "Inter";
+  
+      /* typography5 */
+      --typography5-300: normal 300 18px "Inter";
+      --typography5-400: normal 400 18px "Inter";
+      --typography5-500: normal 500 18px "Inter";
+      --typography5-700: normal 700 18px "Inter";
+      --typography5-900: normal 900 18px "Inter";
+  
+      /* typography6 */
+      --typography6-300: normal 300 16px "Inter";
+      --typography6-400: normal 400 16px "Inter";
+      --typography6-500: normal 500 16px "Inter";
+      --typography6-700: normal 700 16px "Inter";
+      --typography6-900: normal 900 16px "Inter";
+  
+      /* typography7 */
+      --typography7-300: normal 300 14px "Inter";
+      --typography7-400: normal 400 14px "Inter";
+      --typography7-500: normal 500 14px "Inter";
+      --typography7-700: normal 700 14px "Inter";
+      --typography7-900: normal 900 14px "Inter";
+  
+      /* typography8 */
+      --typography8-300: normal 300 10px "Inter";
+      --typography8-400: normal 400 10px "Inter";
+      --typography8-500: normal 500 10px "Inter";
+      --typography8-700: normal 700 10px "Inter";
+      --typography8-900: normal 900 10px "Inter";
+  
+      /* typography9 */
+      --typography9-300: normal 300 8px "Inter";
+      --typography9-400: normal 400 8px "Inter";
+      --typography9-500: normal 500 8px "Inter";
+      --typography9-700: normal 700 8px "Inter";
+      --typography9-900: normal 900 8px "Inter";
+  
+      /* typography10 */
+      --typography10-300: normal 300 6px "Inter";
+      --typography10-400: normal 400 6px "Inter";
+      --typography10-500: normal 500 6px "Inter";
+      --typography10-700: normal 700 6px "Inter";
+      --typography10-900: normal 900 6px "Inter";
+  
+      /* typography11 */
+      --typography11-300: normal 300 4px "Inter";
+      --typography11-400: normal 400 4px "Inter";
+      --typography11-500: normal 500 4px "Inter";
+      --typography11-700: normal 700 4px "Inter";
+      --typography11-900: normal 900 4px "Inter";
+    }
+  }
+  
+  /* -------------------- typhography md -------------------- */
+  @media (min-width: 768px) {
+    :root {
+      /* typography1 */
+      --typography1-300: normal 300 42px "Inter";
+      --typography1-400: normal 400 42px "Inter";
+      --typography1-500: normal 500 42px "Inter";
+      --typography1-700: normal 700 42px "Inter";
+      --typography1-900: normal 900 42px "Inter";
+  
+      /* typography2 */
+      --typography2-300: normal 300 38px "Inter";
+      --typography2-400: normal 400 38px "Inter";
+      --typography2-500: normal 500 38px "Inter";
+      --typography2-700: normal 700 38px "Inter";
+      --typography2-900: normal 900 38px "Inter";
+  
+      /* typography3 */
+      --typography3-300: normal 300 32px "Inter";
+      --typography3-400: normal 400 32px "Inter";
+      --typography3-500: normal 500 32px "Inter";
+      --typography3-700: normal 700 32px "Inter";
+      --typography3-900: normal 900 32px "Inter";
+  
+      /* typography4 */
+      --typography4-300: normal 300 24px "Inter";
+      --typography4-400: normal 400 24px "Inter";
+      --typography4-500: normal 500 24px "Inter";
+      --typography4-700: normal 700 24px "Inter";
+      --typography4-900: normal 900 24px "Inter";
+  
+      /* typography5 */
+      --typography5-300: normal 300 20px "Inter";
+      --typography5-400: normal 400 20px "Inter";
+      --typography5-500: normal 500 20px "Inter";
+      --typography5-700: normal 700 20px "Inter";
+      --typography5-900: normal 900 20px "Inter";
+  
+      /* typography6 */
+      --typography6-300: normal 300 18px "Inter";
+      --typography6-400: normal 400 18px "Inter";
+      --typography6-500: normal 500 18px "Inter";
+      --typography6-700: normal 700 18px "Inter";
+      --typography6-900: normal 900 18px "Inter";
+  
+      /* typography7 */
+      --typography7-300: normal 300 16px "Inter";
+      --typography7-400: normal 400 16px "Inter";
+      --typography7-500: normal 500 16px "Inter";
+      --typography7-700: normal 700 16px "Inter";
+      --typography7-900: normal 900 16px "Inter";
+  
+      /* typography8 */
+      --typography8-300: normal 300 12px "Inter";
+      --typography8-400: normal 400 12px "Inter";
+      --typography8-500: normal 500 12px "Inter";
+      --typography8-700: normal 700 12px "Inter";
+      --typography8-900: normal 900 12px "Inter";
+  
+      /* typography9 */
+      --typography9-300: normal 300 10px "Inter";
+      --typography9-400: normal 400 10px "Inter";
+      --typography9-500: normal 500 10px "Inter";
+      --typography9-700: normal 700 10px "Inter";
+      --typography9-900: normal 900 10px "Inter";
+  
+      /* typography10 */
+      --typography10-300: normal 300 8px "Inter";
+      --typography10-400: normal 400 8px "Inter";
+      --typography10-500: normal 500 8px "Inter";
+      --typography10-700: normal 700 8px "Inter";
+      --typography10-900: normal 900 8px "Inter";
+  
+      /* typography11 */
+      --typography11-300: normal 300 6px "Inter";
+      --typography11-400: normal 400 6px "Inter";
+      --typography11-500: normal 500 6px "Inter";
+      --typography11-700: normal 700 6px "Inter";
+      --typography11-900: normal 900 6px "Inter";
+    }
+  }
+  
+  /* -------------------- typhography lg -------------------- */
+  @media (min-width: 992px) {
+    :root {
+      /* typography1 */
+      --typography1-300: normal 300 48px "Inter";
+      --typography1-400: normal 400 48px "Inter";
+      --typography1-500: normal 500 48px "Inter";
+      --typography1-700: normal 700 48px "Inter";
+      --typography1-900: normal 900 48px "Inter";
+  
+      /* typography2 */
+      --typography2-300: normal 300 42px "Inter";
+      --typography2-400: normal 400 42px "Inter";
+      --typography2-500: normal 500 42px "Inter";
+      --typography2-700: normal 700 42px "Inter";
+      --typography2-900: normal 900 42px "Inter";
+  
+      /* typography3 */
+      --typography3-300: normal 300 36px "Inter";
+      --typography3-400: normal 400 36px "Inter";
+      --typography3-500: normal 500 36px "Inter";
+      --typography3-700: normal 700 36px "Inter";
+      --typography3-900: normal 900 36px "Inter";
+  
+      /* typography4 */
+      --typography4-300: normal 300 28px "Inter";
+      --typography4-400: normal 400 28px "Inter";
+      --typography4-500: normal 500 28px "Inter";
+      --typography4-700: normal 700 28px "Inter";
+      --typography4-900: normal 900 28px "Inter";
+  
+      /* typography5 */
+      --typography5-300: normal 300 22px "Inter";
+      --typography5-400: normal 400 22px "Inter";
+      --typography5-500: normal 500 22px "Inter";
+      --typography5-700: normal 700 22px "Inter";
+      --typography5-900: normal 900 22px "Inter";
+  
+      /* typography6 */
+      --typography6-300: normal 300 20px "Inter";
+      --typography6-400: normal 400 20px "Inter";
+      --typography6-500: normal 500 20px "Inter";
+      --typography6-700: normal 700 20px "Inter";
+      --typography6-900: normal 900 20px "Inter";
+  
+      /* typography7 */
+      --typography7-300: normal 300 18px "Inter";
+      --typography7-400: normal 400 18px "Inter";
+      --typography7-500: normal 500 18px "Inter";
+      --typography7-700: normal 700 18px "Inter";
+      --typography7-900: normal 900 18px "Inter";
+  
+      /* typography8 */
+      --typography8-300: normal 300 14px "Inter";
+      --typography8-400: normal 400 14px "Inter";
+      --typography8-500: normal 500 14px "Inter";
+      --typography8-700: normal 700 14px "Inter";
+      --typography8-900: normal 900 14px "Inter";
+  
+      /* typography9 */
+      --typography9-300: normal 300 12px "Inter";
+      --typography9-400: normal 400 12px "Inter";
+      --typography9-500: normal 500 12px "Inter";
+      --typography9-700: normal 700 12px "Inter";
+      --typography9-900: normal 900 12px "Inter";
+  
+      /* typography10 */
+      --typography10-300: normal 300 10px "Inter";
+      --typography10-400: normal 400 10px "Inter";
+      --typography10-500: normal 500 10px "Inter";
+      --typography10-700: normal 700 10px "Inter";
+      --typography10-900: normal 900 10px "Inter";
+  
+      /* typography11 */
+      --typography11-300: normal 300 8px "Inter";
+      --typography11-400: normal 400 8px "Inter";
+      --typography11-500: normal 500 8px "Inter";
+      --typography11-700: normal 700 8px "Inter";
+      --typography11-900: normal 900 8px "Inter";
+    }
+  }
+  
+  /* -------------------- typhography xl -------------------- */
+  @media (min-width: 1200px) {
+    :root {
+      /* typography1 */
+      --typography1-300: normal 300 64px "Inter";
+      --typography1-400: normal 400 64px "Inter";
+      --typography1-500: normal 500 64px "Inter";
+      --typography1-700: normal 700 64px "Inter";
+      --typography1-900: normal 900 64px "Inter";
+  
+      /* typography2 */
+      --typography2-300: normal 300 48px "Inter";
+      --typography2-400: normal 400 48px "Inter";
+      --typography2-500: normal 500 48px "Inter";
+      --typography2-700: normal 700 48px "Inter";
+      --typography2-900: normal 900 48px "Inter";
+  
+      /* typography3 */
+      --typography3-300: normal 300 42px "Inter";
+      --typography3-400: normal 400 42px "Inter";
+      --typography3-500: normal 500 42px "Inter";
+      --typography3-700: normal 700 42px "Inter";
+      --typography3-900: normal 900 42px "Inter";
+  
+      /* typography4 */
+      --typography4-300: normal 300 32px "Inter";
+      --typography4-400: normal 400 32px "Inter";
+      --typography4-500: normal 500 32px "Inter";
+      --typography4-700: normal 700 32px "Inter";
+      --typography4-900: normal 900 32px "Inter";
+  
+      /* typography5 */
+      --typography5-300: normal 300 24px "Inter";
+      --typography5-400: normal 400 24px "Inter";
+      --typography5-500: normal 500 24px "Inter";
+      --typography5-700: normal 700 24px "Inter";
+      --typography5-900: normal 900 24px "Inter";
+  
+      /* typography6 */
+      --typography6-300: normal 300 22px "Inter";
+      --typography6-400: normal 400 22px "Inter";
+      --typography6-500: normal 500 22px "Inter";
+      --typography6-700: normal 700 22px "Inter";
+      --typography6-900: normal 900 22px "Inter";
+  
+      /* typography7 */
+      --typography7-300: normal 300 18px "Inter";
+      --typography7-400: normal 400 18px "Inter";
+      --typography7-500: normal 500 18px "Inter";
+      --typography7-700: normal 700 18px "Inter";
+      --typography7-900: normal 900 18px "Inter";
+  
+      /* typography8 */
+      --typography8-300: normal 300 16px "Inter";
+      --typography8-400: normal 400 16px "Inter";
+      --typography8-500: normal 500 16px "Inter";
+      --typography8-700: normal 700 16px "Inter";
+      --typography8-900: normal 900 16px "Inter";
+  
+      /* typography9 */
+      --typography9-300: normal 300 14px "Inter";
+      --typography9-400: normal 400 14px "Inter";
+      --typography9-500: normal 500 14px "Inter";
+      --typography9-700: normal 700 14px "Inter";
+      --typography9-900: normal 900 14px "Inter";
+  
+      /* typography10 */
+      --typography10-300: normal 300 12px "Inter";
+      --typography10-400: normal 400 12px "Inter";
+      --typography10-500: normal 500 12px "Inter";
+      --typography10-700: normal 700 12px "Inter";
+      --typography10-900: normal 900 12px "Inter";
+  
+      /* typography11 */
+      --typography11-300: normal 300 10px "Inter";
+      --typography11-400: normal 400 10px "Inter";
+      --typography11-500: normal 500 10px "Inter";
+      --typography11-700: normal 700 10px "Inter";
+      --typography11-900: normal 900 10px "Inter";
+    }
+  }
+  
+  /* -------------------- typhography 2xl -------------------- */
+  @media (min-width: 1440px) {
+    :root {
+      /* typography1 */
+      --typography1-300: normal 300 72px "Inter";
+      --typography1-400: normal 400 72px "Inter";
+      --typography1-500: normal 500 72px "Inter";
+      --typography1-700: normal 700 72px "Inter";
+      --typography1-900: normal 900 72px "Inter";
+  
+      /* typography2 */
+      --typography2-300: normal 300 64px "Inter";
+      --typography2-400: normal 400 64px "Inter";
+      --typography2-500: normal 500 64px "Inter";
+      --typography2-700: normal 700 64px "Inter";
+      --typography2-900: normal 900 64px "Inter";
+  
+      /* typography3 */
+      --typography3-300: normal 300 48px "Inter";
+      --typography3-400: normal 400 48px "Inter";
+      --typography3-500: normal 500 48px "Inter";
+      --typography3-700: normal 700 48px "Inter";
+      --typography3-900: normal 900 48px "Inter";
+  
+      /* typography4 */
+      --typography4-300: normal 300 36px "Inter";
+      --typography4-400: normal 400 36px "Inter";
+      --typography4-500: normal 500 36px "Inter";
+      --typography4-700: normal 700 36px "Inter";
+      --typography4-900: normal 900 36px "Inter";
+  
+      /* typography5 */
+      --typography5-300: normal 300 28px "Inter";
+      --typography5-400: normal 400 28px "Inter";
+      --typography5-500: normal 500 28px "Inter";
+      --typography5-700: normal 700 28px "Inter";
+      --typography5-900: normal 900 28px "Inter";
+  
+      /* typography6 */
+      --typography6-300: normal 300 24px "Inter";
+      --typography6-400: normal 400 24px "Inter";
+      --typography6-500: normal 500 24px "Inter";
+      --typography6-700: normal 700 24px "Inter";
+      --typography6-900: normal 900 24px "Inter";
+  
+      /* typography7 */
+      --typography7-300: normal 300 20px "Inter";
+      --typography7-400: normal 400 20px "Inter";
+      --typography7-500: normal 500 20px "Inter";
+      --typography7-700: normal 700 20px "Inter";
+      --typography7-900: normal 900 20px "Inter";
+  
+      /* typography8 */
+      --typography8-300: normal 300 18px "Inter";
+      --typography8-400: normal 400 18px "Inter";
+      --typography8-500: normal 500 18px "Inter";
+      --typography8-700: normal 700 18px "Inter";
+      --typography8-900: normal 900 18px "Inter";
+  
+      /* typography9 */
+      --typography9-300: normal 300 16px "Inter";
+      --typography9-400: normal 400 16px "Inter";
+      --typography9-500: normal 500 16px "Inter";
+      --typography9-700: normal 700 16px "Inter";
+      --typography9-900: normal 900 16px "Inter";
+  
+      /* typography10 */
+      --typography10-300: normal 300 14px "Inter";
+      --typography10-400: normal 400 14px "Inter";
+      --typography10-500: normal 500 14px "Inter";
+      --typography10-700: normal 700 14px "Inter";
+      --typography10-900: normal 900 14px "Inter";
+  
+      /* typography11 */
+      --typography11-300: normal 300 12px "Inter";
+      --typography11-400: normal 400 12px "Inter";
+      --typography11-500: normal 500 12px "Inter";
+      --typography11-700: normal 700 12px "Inter";
+      --typography11-900: normal 900 12px "Inter";
+    }
+  }

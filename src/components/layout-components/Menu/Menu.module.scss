@@ -1,0 +1,23 @@
+@import "../../../styles/mixin";
+
+.menu {
+  @include flexAll(flex-start);
+  overflow: hidden;
+  .menusTitle {
+    padding: 13px 20px;
+    border-radius: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 8px;
+    white-space: nowrap;
+    &:hover {
+      background-color: var(--primary-50);
+      color: var(--primary-900);
+    }
+
+    @media (max-width: 1231px) {
+
+      padding: 5px 12px;
+    }
+  }
+}

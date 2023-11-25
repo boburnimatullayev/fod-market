@@ -1,0 +1,5 @@
+@mixin flexAll($ltr-value) {
+  display: flex;
+  justify-content: $ltr-value;
+  align-items: center;
+ }
